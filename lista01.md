@@ -68,15 +68,15 @@ Questões Dissertativas
         VerTotal(){
             console.log(`A soma total das notas é ${this.total}.`)
         }
-    }
+        }
 
-    const somador = new SomadordeNotas();
+        const somador = new SomadordeNotas();
 
-    somador.AdicionarNota(8);
-    somador.AdicionarNota(7.5);
-    somador.AdicionarNota(9.5);
+        somador.AdicionarNota(8);
+        somador.AdicionarNota(7.5);
+        somador.AdicionarNota(9.5);
 
-    somador.VerTotal();
+        somador.VerTotal();
 
 10. 
 
